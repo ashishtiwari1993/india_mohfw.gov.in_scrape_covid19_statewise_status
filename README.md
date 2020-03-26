@@ -18,7 +18,7 @@ docker run -p 8080:8080 -d -v /yourpath/india_mohfw.gov.in_scrape_covid19_statew
 
 In my case it was:
 ```sh
-docker run -p 8080:8080 -v /var/www/html/india_mohfw.gov.in_scrape_covid19_statewise_status/:/var/www/html trafex/alpine-nginx-php7
+docker run -p 8080:8080 -d -v /var/www/html/india_mohfw.gov.in_scrape_covid19_statewise_status/:/var/www/html trafex/alpine-nginx-php7
 ```
 
 ### Step: 3
@@ -239,3 +239,6 @@ curl localhost:8080
     ]
 }
 ```
+
+### Note:
+It does scrapping in runtime when you hit the endpoint. It may take a few moments for scrape. Not scrapped the `thead` that you can keep static But the API returns the value in the same order, So you can use easily.  
