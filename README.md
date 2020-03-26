@@ -1,6 +1,6 @@
 # API for scraping COVID19 statewise status data from https://mohfw.gov.in
 
-## Deploy
+## Usage
 
 ### Step: 1
 ```sh
