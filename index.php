@@ -6,6 +6,8 @@ $html = file_get_html('https://www.mohfw.gov.in/');
 
 $result = [];
 
+$head = ['s_no','state','total_confirmed_case_indian_national','total_confirmed_cases_foreign_national','cured_discharge_migrated','death'];
+
 foreach($html->find('div#cases') as $e){
 		$i = 1;
 		foreach($e->find('div.table-responsive tbody tr') as $trk){
@@ -14,15 +16,19 @@ foreach($html->find('div#cases') as $e){
 						$stateWiseData[] = $tdk->innertext;
 				}
 
-				if($i > 26){
-					break;
+				$data = [];
+				foreach($stateWiseData as $stkey => $stvalue){
+					$data[$head[$stkey]] = $stvalue;
 				}
-	
-				$result[strtolower($stateWiseData[1])] = $stateWiseData;
+
+				$result[] = $data;
 
 		$i++;	
 		}	
 }
 
+$totalElement = count($result);
+unset($result[$totalElement - 1]);
+unset($result[$totalElement - 2]);
 
-print_r(json_encode($result,JSON_PRETTY_PRINT));die;
+echo json_encode($result,JSON_PRETTY_PRINT);
