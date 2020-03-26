@@ -23,9 +23,12 @@ docker run -p 8080:8080 -d -v /var/www/html/india_mohfw.gov.in_scrape_covid19_st
 ```
 
 ### Step: 3
+Hit Below command:
 ```sh
 curl localhost:8080?q=state
 ```
+
+OR simply visit `localhost:8080?q=state`
 
 ### Sample Output:
 ```json
@@ -250,4 +253,4 @@ curl localhost:8080?q=state
 ```
 
 ### Note:
-It does scrapping in runtime when you hit the endpoint. It may take a few moments for scrape.
+It does scrapping in runtime when you hit the endpoint. It may take a few moments for scrape. It is just simple API wrapper on basic scrapping hence not added any authentications.
