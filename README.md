@@ -28,216 +28,224 @@ curl localhost:8080
 
 ### Sample Output:
 ```json
-{
-    "andhra pradesh": [
-        "1",
-        "Andhra Pradesh",
-        "11",
-        "0",
-        "1",
-        "0"
-    ],
-    "bihar": [
-        "2",
-        "Bihar",
-        "3",
-        "0",
-        "0",
-        "1"
-    ],
-    "chhattisgarh": [
-        "3",
-        "Chhattisgarh",
-        "3",
-        "0",
-        "0",
-        "0"
-    ],
-    "delhi": [
-        "4",
-        "Delhi",
-        "34",
-        "1",
-        "6",
-        "1"
-    ],
-    "goa": [
-        "5",
-        "Goa",
-        "3",
-        "0",
-        "0",
-        "0"
-    ],
-    "gujarat": [
-        "6",
-        "Gujarat",
-        "37",
-        "1",
-        "0",
-        "2"
-    ],
-    "haryana": [
-        "7",
-        "Haryana",
-        "16",
-        "14",
-        "11",
-        "0"
-    ],
-    "himachal pradesh": [
-        "8",
-        "Himachal Pradesh",
-        "3",
-        "0",
-        "0",
-        "1"
-    ],
-    "karnataka": [
-        "9",
-        "Karnataka",
-        "41",
-        "0",
-        "3",
-        "1"
-    ],
-    "kerala": [
-        "10",
-        "Kerala",
-        "110",
-        "8",
-        "4",
-        "0"
-    ],
-    "madhya pradesh": [
-        "11",
-        "Madhya Pradesh",
-        "15",
-        "0",
-        "0",
-        "1"
-    ],
-    "maharashtra": [
-        "12",
-        "Maharashtra",
-        "121",
-        "3",
-        "1",
-        "3"
-    ],
-    "manipur": [
-        "13",
-        "Manipur",
-        "1",
-        "0",
-        "0",
-        "0"
-    ],
-    "mizoram": [
-        "14",
-        "Mizoram",
-        "1",
-        "0",
-        "0",
-        "0"
-    ],
-    "odisha": [
-        "15",
-        "Odisha",
-        "2",
-        "0",
-        "0",
-        "0"
-    ],
-    "puducherry": [
-        "16",
-        "Puducherry",
-        "1",
-        "0",
-        "0",
-        "0"
-    ],
-    "punjab": [
-        "17",
-        "Punjab",
-        "33",
-        "0",
-        "0",
-        "1"
-    ],
-    "rajasthan": [
-        "18",
-        "Rajasthan",
-        "36",
-        "2",
-        "3",
-        "0"
-    ],
-    "tamil nadu": [
-        "19",
-        "Tamil Nadu",
-        "20",
-        "6",
-        "1",
-        "1"
-    ],
-    "telengana": [
-        "20",
-        "Telengana",
-        "31",
-        "10",
-        "1",
-        "0"
-    ],
-    "chandigarh": [
-        "21",
-        "Chandigarh",
-        "7",
-        "0",
-        "0",
-        "0"
-    ],
-    "jammu and kashmir": [
-        "22",
-        "Jammu and Kashmir",
-        "11",
-        "0",
-        "1",
-        "0"
-    ],
-    "ladakh": [
-        "23",
-        "Ladakh",
-        "13",
-        "0",
-        "0",
-        "0"
-    ],
-    "uttar pradesh": [
-        "24",
-        "Uttar Pradesh",
-        "36",
-        "1",
-        "11",
-        "0"
-    ],
-    "uttarakhand": [
-        "25",
-        "Uttarakhand",
-        "4",
-        "1",
-        "0",
-        "0"
-    ],
-    "west bengal": [
-        "26",
-        "West Bengal",
-        "9",
-        "0",
-        "0",
-        "1"
-    ]
-}
+[
+    {
+        "s_no": "1",
+        "state": "Andaman and Nicobar Islands",
+        "total_confirmed_case_indian_national": "1",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "2",
+        "state": "Andhra Pradesh",
+        "total_confirmed_case_indian_national": "11",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "1",
+        "death": "0"
+    },
+    {
+        "s_no": "3",
+        "state": "Bihar",
+        "total_confirmed_case_indian_national": "6",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "1"
+    },
+    {
+        "s_no": "4",
+        "state": "Chandigarh",
+        "total_confirmed_case_indian_national": "7",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "5",
+        "state": "Chhattisgarh",
+        "total_confirmed_case_indian_national": "6",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "6",
+        "state": "Delhi",
+        "total_confirmed_case_indian_national": "35",
+        "total_confirmed_cases_foreign_national": "1",
+        "cured_discharge_migrated": "6",
+        "death": "1"
+    },
+    {
+        "s_no": "7",
+        "state": "Goa",
+        "total_confirmed_case_indian_national": "3",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "8",
+        "state": "Gujarat",
+        "total_confirmed_case_indian_national": "42",
+        "total_confirmed_cases_foreign_national": "1",
+        "cured_discharge_migrated": "0",
+        "death": "3"
+    },
+    {
+        "s_no": "9",
+        "state": "Haryana",
+        "total_confirmed_case_indian_national": "16",
+        "total_confirmed_cases_foreign_national": "14",
+        "cured_discharge_migrated": "11",
+        "death": "0"
+    },
+    {
+        "s_no": "10",
+        "state": "Himachal Pradesh",
+        "total_confirmed_case_indian_national": "3",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "1"
+    },
+    {
+        "s_no": "11",
+        "state": "Jammu and Kashmir",
+        "total_confirmed_case_indian_national": "13",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "1",
+        "death": "1"
+    },
+    {
+        "s_no": "12",
+        "state": "Karnataka",
+        "total_confirmed_case_indian_national": "55",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "3",
+        "death": "2"
+    },
+    {
+        "s_no": "13",
+        "state": "Kerala",
+        "total_confirmed_case_indian_national": "110",
+        "total_confirmed_cases_foreign_national": "8",
+        "cured_discharge_migrated": "6",
+        "death": "0"
+    },
+    {
+        "s_no": "14",
+        "state": "Ladakh",
+        "total_confirmed_case_indian_national": "13",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "15",
+        "state": "Madhya Pradesh",
+        "total_confirmed_case_indian_national": "20",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "1"
+    },
+    {
+        "s_no": "16",
+        "state": "Maharashtra",
+        "total_confirmed_case_indian_national": "121",
+        "total_confirmed_cases_foreign_national": "3",
+        "cured_discharge_migrated": "1",
+        "death": "3"
+    },
+    {
+        "s_no": "17",
+        "state": "Manipur",
+        "total_confirmed_case_indian_national": "1",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "18",
+        "state": "Mizoram",
+        "total_confirmed_case_indian_national": "1",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "19",
+        "state": "Odisha",
+        "total_confirmed_case_indian_national": "2",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "20",
+        "state": "Puducherry",
+        "total_confirmed_case_indian_national": "1",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "21",
+        "state": "Punjab",
+        "total_confirmed_case_indian_national": "33",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "1"
+    },
+    {
+        "s_no": "22",
+        "state": "Rajasthan",
+        "total_confirmed_case_indian_national": "39",
+        "total_confirmed_cases_foreign_national": "2",
+        "cured_discharge_migrated": "3",
+        "death": "0"
+    },
+    {
+        "s_no": "23",
+        "state": "Tamil Nadu",
+        "total_confirmed_case_indian_national": "20",
+        "total_confirmed_cases_foreign_national": "6",
+        "cured_discharge_migrated": "1",
+        "death": "1"
+    },
+    {
+        "s_no": "24",
+        "state": "Telengana",
+        "total_confirmed_case_indian_national": "34",
+        "total_confirmed_cases_foreign_national": "10",
+        "cured_discharge_migrated": "1",
+        "death": "0"
+    },
+    {
+        "s_no": "25",
+        "state": "Uttarakhand",
+        "total_confirmed_case_indian_national": "4",
+        "total_confirmed_cases_foreign_national": "1",
+        "cured_discharge_migrated": "0",
+        "death": "0"
+    },
+    {
+        "s_no": "26",
+        "state": "Uttar Pradesh",
+        "total_confirmed_case_indian_national": "40",
+        "total_confirmed_cases_foreign_national": "1",
+        "cured_discharge_migrated": "11",
+        "death": "0"
+    },
+    {
+        "s_no": "27",
+        "state": "West Bengal",
+        "total_confirmed_case_indian_national": "10",
+        "total_confirmed_cases_foreign_national": "0",
+        "cured_discharge_migrated": "0",
+        "death": "1"
+    }
+]
 ```
 
 ### Note:
