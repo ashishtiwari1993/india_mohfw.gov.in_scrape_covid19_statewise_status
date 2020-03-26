@@ -24,7 +24,7 @@ docker run -p 8080:8080 -d -v /var/www/html/india_mohfw.gov.in_scrape_covid19_st
 
 ### Step: 3
 ```sh
-curl localhost:8080
+curl localhost:8080?q=state
 ```
 
 ### Sample Output:
