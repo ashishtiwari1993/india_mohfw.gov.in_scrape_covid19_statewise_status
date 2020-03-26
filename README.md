@@ -249,4 +249,4 @@ curl localhost:8080
 ```
 
 ### Note:
-It does scrapping in runtime when you hit the endpoint. It may take a few moments for scrape. Not scrapped the `thead` that you can keep static But the API returns the value in the same order, So you can use easily.  
+It does scrapping in runtime when you hit the endpoint. It may take a few moments for scrape.
