@@ -12,6 +12,7 @@ cd india_mohfw.gov.in_scrape_covid19_statewise_status/
 ```
 
 ### Step: 2
+Replace the 'yourpath' with your actual path in the below command:
 ```sh
 docker run -p 8080:8080 -d -v /yourpath/india_mohfw.gov.in_scrape_covid19_statewise_status/:/var/www/html trafex/alpine-nginx-php7
 ```
